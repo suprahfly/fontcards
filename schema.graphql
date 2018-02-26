@@ -1,0 +1,83 @@
+scalar Color
+scalar Url
+scalar API_KEY
+
+type Font {
+    id: ID!
+    family: String!
+    variants: [Variant!]
+    category: [Category!]
+    subsets: [Subset!]
+    foundry: Foundry!
+    cards: [Card]
+    lastModified: Date!
+    version: String
+}
+
+type Foundry {
+    id: ID!
+    name: String!
+    apiKey: API_KEY
+    url: Url
+}
+
+type Card {
+    id: ID!
+    pair: Pair!
+    content: Content!
+    colorText: Color!
+    colorBack: Color!
+    favorite: Boolean!
+}
+
+type Pair {
+    id: ID!
+    header: Type!
+    body: Type!
+}
+
+type Content {
+    id: ID!
+    author: String!
+    link: Url!
+    source: Source!
+    text: String!
+}
+
+enum Source {
+    Gizmodo,
+    Wired,
+    Meduza
+}
+
+enum Category {
+    serif
+    sans-serif
+    display
+}
+
+enum Variant {
+    hairline
+    ultrathin
+    thin
+    regular
+    medium
+    semibold
+    heavy
+    extraheavy
+    book
+    caption
+    italic
+    roman
+    book
+    demibold
+    extrathin
+    extrabold
+    ultrabold
+    extralight
+}
+
+enum Subsets {
+    latin
+    cyrillic
+}
