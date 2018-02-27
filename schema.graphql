@@ -56,28 +56,47 @@ enum Category {
     display
 }
 
-enum Variant {
-    hairline
-    ultrathin
-    thin
-    regular
-    medium
-    semibold
-    heavy
-    extraheavy
-    book
-    caption
-    italic
-    roman
-    book
-    demibold
-    extrathin
-    extrabold
-    ultrabold
-    extralight
-}
-
 enum Subsets {
     latin
     cyrillic
 }
+
+enum Variant {
+    100
+    200
+    300
+    400
+    500
+    600
+    700
+    800
+    900
+    100italic
+    200italic
+    300italic
+    400italic
+    500italic
+    600italic
+    700italic
+    800italic
+    900italic
+    hairline
+    ultrathin
+    extrathin
+    thin
+    extralight
+    light
+    regular
+    italic
+    book
+    roman
+    caption
+    medium
+    semibold
+    demibold
+    heavy
+    extraheavy
+    extrabold
+    ultrabold
+}
+

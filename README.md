@@ -1,24 +1,22 @@
+# Fontcards webapp
 ## Types
+### Scalars
+- API_KEY
+- Color
+- Url
 
-### Object types
+### Objects
 - Font
+- Foundry
+- Card
 - Pair
+- Content
 
-### Enum types
-- Categories
-- Variants
-- Subsets
-
-### Scalar type
+### Enums
 - Category
 - Variant
+- Source
 - Subset
-
-## Mutation types
-- PutFont
-- PutPair
-
-## Query types
 
 ### Google API response:
 
