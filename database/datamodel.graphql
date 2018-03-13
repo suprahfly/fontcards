@@ -1,0 +1,78 @@
+type Font {
+    id: ID! @unique
+    family: String!
+    variants: [String!]!
+    category: String!
+    subsets: [String!]!
+    foundry: String!
+    lastModified: String!
+    test: String
+    version: String
+}
+
+type Content {
+    id: ID! @unique
+    author: String!
+    link: String!
+    source: Source!
+    text: String!
+}
+
+# type Card {
+#     id: ID! @unique
+#     pair: Pair!
+#     content: Content!
+#     colorText: String!
+#     colorBack: String!
+#     favorite: Boolean!
+# }
+
+# type Pair {
+#     id: ID! @unique
+#     header: Font!
+#     body: Font!
+# }
+
+enum Source {
+    GIZMODO
+    WIRED
+    MEDUZA
+}
+
+enum Category {
+    SERIF
+    SANS_SERIF
+    DISPLAY
+}
+
+enum Subset {
+    LATIN
+    CYRILLIC
+}
+
+enum Foundry {
+    GOOGLE_FONTS
+    FONT_SQUIRREL
+    TYPE_TODAY
+}
+
+enum Variant {
+    HAIRLINE
+    ULTRATHIN
+    EXTRATHIN
+    THIN
+    EXTRALIGHT
+    LIGHT
+    REGULAR
+    ITALIC
+    BOOK
+    ROMAN
+    CAPTION
+    MEDIUM
+    SEMIBOLD
+    DEMIBOLD
+    HEAVY
+    EXTRAHEAVY
+    EXTRABOLD
+    ULTRABOLD
+}

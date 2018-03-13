@@ -1,0 +1,28 @@
+# import Font from "./generated/prisma.graphql"
+## import Card from "./generated/prisma.graphql"
+## import Content from "./generated/prisma.graphql"
+## import Pair from "./generated/prisma.graphql"
+
+type Query {
+    feed: [Font!]!
+    fontById(id: ID!): Font
+    fontsByFamily(family: String!): [Font]
+}
+
+type Mutation {
+    createFont(
+        family: String!
+        variants: [String!]!
+        category: [String!]!
+        subsets: [String!]!
+        foundry: String!
+        lastModified: String!
+        version: String
+    ): Font
+    # createContent(
+    #     author: String!
+    #     link: String!
+    #     source: Source!
+    #     text: String!
+    # ): Content
+}

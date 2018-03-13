@@ -1,0 +1,77 @@
+mutation {
+    first: createFont(
+        data: {
+            family: "Roboto"
+            foundry: "GOOGLE_FONTS"
+            category: "sans-serif"
+            variants: {
+                set: [
+                    "100"
+                    "100italic"
+                    "300"
+                    "300italic"
+                    "regular"
+                    "italic"
+                    "500"
+                    "500italic"
+                    "700"
+                    "700italic"
+                    "900"
+                    "900italic"
+                ]
+            }
+            subsets: {
+                set: [
+                    "latin-ext"
+                    "greek-ext"
+                    "latin"
+                    "vietnamese"
+                    "cyrillic"
+                    "cyrillic-ext"
+                    "greek"
+                ]
+            }
+            version: "v18"
+            lastModified: "2017-10-16"
+        }
+    ) {
+        id
+    }
+
+    second: createFont(
+        data: {
+            family: "Open Sans"
+            foundry: "GOOGLE_FONTS"
+            category: "sans-serif"
+            variants: {
+                set: [
+                    "300"
+                    "300italic"
+                    "regular"
+                    "italic"
+                    "600"
+                    "600italic"
+                    "700"
+                    "700italic"
+                    "800"
+                    "800italic"
+                ]
+            }
+            subsets: {
+                set: [
+                    "latin-ext"
+                    "greek-ext"
+                    "latin"
+                    "vietnamese"
+                    "cyrillic"
+                    "cyrillic-ext"
+                    "greek"
+                ]
+            }
+            version: "v15"
+            lastModified: "2017-10-11"
+        }
+    ) {
+        id
+    }
+}

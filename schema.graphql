@@ -1,45 +1,41 @@
-scalar Color
-scalar Url
-scalar API_KEY
-
-type Font {
-    id: ID!
+type Font @model {
+    id: ID! @isUnique
     family: String!
-    variants: [Variant!]
-    category: [Category!]
-    subsets: [Subset!]
-    foundry: Foundry!
-    cards: [Card]
-    lastModified: Date!
+    variants: [Variant!]!
+    category: [Category!]!
+    subsets: [Subset!]!
+    foundry: Foundry! @relation(name: Foundry)
+    cards: Card @relation(name: Card)
+    lastModified: String!
     version: String
 }
 
-type Foundry {
-    id: ID!
+type Foundry @model {
+    id: ID! @isUnique
     name: String!
-    apiKey: API_KEY
-    url: Url
+    apiKey: String
+    url: String
 }
 
-type Card {
-    id: ID!
-    pair: Pair!
-    content: Content!
-    colorText: Color!
-    colorBack: Color!
+type Card @model {
+    id: ID! @isUnique
+    pair: Pair! @relation(name: Pair)
+    content: Content! @relation(name: Content)
+    colorText: String!
+    colorBack: String!
     favorite: Boolean!
 }
 
-type Pair {
-    id: ID!
-    header: Type!
-    body: Type!
+type Pair @model {
+    id: ID! @isUnique
+    header: Font! @relation(name: Font)
+    body: Font! @relation(name: Font)
 }
 
-type Content {
-    id: ID!
+type Content @model {
+    id: ID! @isUnique
     author: String!
-    link: Url!
+    link: String!
     source: Source!
     text: String!
 }
@@ -52,34 +48,16 @@ enum Source {
 
 enum Category {
     serif
-    sans-serif
+    sans_serif
     display
 }
 
-enum Subsets {
+enum Subset {
     latin
     cyrillic
 }
 
 enum Variant {
-    100
-    200
-    300
-    400
-    500
-    600
-    700
-    800
-    900
-    100italic
-    200italic
-    300italic
-    400italic
-    500italic
-    600italic
-    700italic
-    800italic
-    900italic
     hairline
     ultrathin
     extrathin
