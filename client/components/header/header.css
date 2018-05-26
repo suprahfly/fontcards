@@ -1,0 +1,96 @@
+.btnIcon {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.28px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0 12px 8px 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.btnIcon:last-of-type {
+    margin-right: 0;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 32px;
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.04);
+    align-items: flex-end;
+}
+
+.aligner {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.36px;
+    line-height: 36px;
+}
+
+.beta {
+    height: 16px;
+    width: 42px;
+    color: #8f8e94;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+.logoCont {
+    margin-right: 32px;
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    height: 36px;
+    line-height: 35px;
+}
+
+.navLink {
+    color: #007aff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+    margin-right: 32px;
+    position: relative;
+    text-decoration: none;
+}
+
+.navLink:last-of-type {
+    margin-right: 0;
+}
+
+.navLink.active::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    background-color: #007aff;
+}
+
+@media screen and (max-width: 687px) {
+    .navLink {
+        font-size: 12px;
+        margin-right: 16px;
+    }
+
+    .utility {
+        display: none;
+    }
+}

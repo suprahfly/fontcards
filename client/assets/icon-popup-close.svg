@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>DB5E1059-CE06-4503-A7B9-DA2E757B0E8F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Close-Popup">
+            <g id="Icons-/-Share" fill="#2B2E33" opacity="0.5">
+                <circle id="BG" cx="12" cy="12" r="12"></circle>
+            </g>
+            <g id="clipboard" transform="translate(8.000000, 8.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M8,0 L0,8" id="Shape"></path>
+                <path d="M8,8 L0,0" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

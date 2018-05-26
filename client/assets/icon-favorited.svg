@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>6E579DF7-D6AB-41B5-8E3F-F0B4702860E9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Favorited-Small">
+            <g id="Icons-/-Favorite" fill="#007AFF">
+                <circle id="BG" cx="16" cy="16" r="16"></circle>
+            </g>
+            <g id="clipboard" transform="translate(9.000000, 9.000000)" fill="#FFFFFF" fill-opacity="0.5" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <polygon id="Shape" points="7 0.758625 9.02825 4.867625 13.5625 5.5265 10.28125 8.724625 11.055625 13.241375 7 11.109 2.944375 13.241375 3.71875 8.724625 0.4375 5.5265 4.97175 4.867625"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,84 @@
+@reset-global pc;
+
+/*
+font-family: -apple-system-body
+font-family: -apple-system-headline
+font-family: -apple-system-subheadline
+font-family: -apple-system-caption1
+font-family: -apple-system-caption2
+font-family: -apple-system-footnote
+font-family: -apple-system-short-body
+font-family: -apple-system-short-headline
+font-family: -apple-system-short-subheadline
+font-family: -apple-system-short-caption1
+font-family: -apple-system-short-footnote
+font-family: -apple-system-tall-body
+*/
+
+body,
+a,
+input,
+button,
+textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica", "Segoe UI",
+        "Arial", sans-serif;
+    color: #000000;
+}
+
+a {
+    color: #007aff;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: none;
+}
+
+body {
+    padding: 24px 0;
+}
+
+.cont {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.note {
+    height: 4px;
+    width: 4px;
+    background-color: #ff3b30;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.feed {
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 688px) {
+    .cont {
+        width: 664px;
+    }
+}
+
+@media screen and (min-width: 1048px) {
+    .cont {
+        width: 1008px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .cont {
+        width: 1352px;
+    }
+}

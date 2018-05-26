@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>165FD141-639A-47CD-9A0F-5C182DF18430</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Settings">
+            <g id="Icons-/-Favorite">
+                <circle id="BG" fill="#000000" opacity="0.04" cx="16" cy="16" r="16"></circle>
+                <g id="clipboard" transform="translate(8.000000, 8.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+                    <circle id="Oval" cx="8" cy="8" r="2.5"></circle>
+                    <path d="M15.5,9 L15.5,7 L13.323,6.637 C13.192,6.125 12.991,5.643 12.728,5.2 L14.011,3.404 L12.596,1.99 L10.8,3.272 C10.357,3.009 9.875,2.808 9.363,2.677 L9,0.5 L7,0.5 L6.637,2.677 C6.125,2.808 5.643,3.009 5.2,3.272 L3.404,1.99 L1.99,3.404 L3.272,5.2 C3.009,5.643 2.808,6.125 2.677,6.637 L0.5,7 L0.5,9 L2.677,9.363 C2.808,9.875 3.009,10.357 3.272,10.8 L1.99,12.596 L3.404,14.01 L5.2,12.728 C5.643,12.991 6.125,13.192 6.637,13.323 L7,15.5 L9,15.5 L9.363,13.323 C9.875,13.192 10.357,12.991 10.8,12.728 L12.596,14.011 L14.01,12.597 L12.728,10.8 C12.991,10.357 13.192,9.875 13.323,9.363 L15.5,9 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>57A6FC01-768B-4A67-BE11-F5F92CFFC1BA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#5E7AE9" offset="0%"></stop>
+            <stop stop-color="#2FBDE4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-Favorites" transform="translate(-656.000000, -184.000000)">
+            <g id="Header" transform="translate(44.000000, 24.000000)">
+                <g id="clipboard">
+                    <g transform="translate(612.000000, 160.000000)">
+                        <circle id="BG" fill="url(#linearGradient-1)" opacity="0.04" cx="64" cy="64" r="64"></circle>
+                        <polygon id="Shape" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="64 39.0345 72.113 55.4705 90.25 58.106 77.125 70.8985 80.2225 88.9655 64 80.436 47.7775 88.9655 50.875 70.8985 37.75 58.106 55.887 55.4705"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

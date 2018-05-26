@@ -61,3 +61,6 @@ package-lock.json
 .idea
 .vscode
 *.log
+
+.cache/
+dist/
