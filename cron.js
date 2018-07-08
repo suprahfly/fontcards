@@ -5,6 +5,7 @@ const ENV_API_FONTS_GOOGLE = "AIzaSyDRxNu76HRyoORtNKa0jilZobvr2i3JIfQ";
 const URL_GOOGLE = `https://www.googleapis.com/webfonts/v1/webfonts?sort=alpha&key=${ENV_API_FONTS_GOOGLE}`;
 const USED_CATEGORIES = ["serif", "sans-serif", "display"];
 const USED_SUBSETS = ["latin"];
+const STOPLIST = ["Libre Barcode"];
 const isEqual = a => b => a === b;
 
 const mockContent = {
@@ -42,14 +43,11 @@ const parseGoogle = res => {
         parsed = parsed.items
             .filter(
                 font =>
-                    USED_CATEGORIES.some(isEqual(font.category)) &&
-                    USED_SUBSETS.some(s => font.subsets.includes(s))
+                    USED_CATEGORIES.includes(font.category) &&
+                    USED_SUBSETS.some(s => font.subsets.includes(s)) &&
+                    !STOPLIST.some(s => font.family.includes(s))
             )
             .map((font, i, arr) => {
-                // const getSecondaryFont = gg(
-                //     getRandomInt.bind(null, 0, arr.length)
-                // );
-                // const secIndex = getSecondaryFont(i);
                 const secIndex = getRandomInt(0, arr.length);
 
                 const mockPair = {
@@ -69,6 +67,7 @@ const parseGoogle = res => {
                     { content: mockContent }
                 );
             });
+
         fs.writeFile("parsed-google.json", JSON.stringify(parsed), "utf-8");
     });
 };

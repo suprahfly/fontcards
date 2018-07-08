@@ -11,16 +11,22 @@
         "autoprefixer": "^8.5.1",
         "babel-preset-env": "^1.7.0",
         "classnames": "^2.2.5",
+        "fontfaceobserver": "^2.0.13",
         "graphql-yoga": "^1.5.2",
         "postcss-css-reset": "^1.0.2",
+        "postcss-import": "^11.1.0",
         "postcss-modules": "^1.1.0",
         "prisma-binding": "^1.5.16",
         "proptypes": "^1.1.0",
         "react": "^16.2.0",
-        "react-dom": "^16.2.0"
+        "react-dom": "^16.2.0",
+        "webfontloader": "^1.6.28",
+        "xstate": "^3.3.2"
     },
     "devDependencies": {
         "babel-core": "^6.26.3",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
         "graphql-cli": "^2.15.8",
         "npm-run-all": "^4.1.2",
         "prisma": "^1.4.0"

@@ -1,5 +1,7 @@
 @reset-global pc;
 
+@import "./assets/fonts/blokkfont.css";
+
 /*
 font-family: -apple-system-body
 font-family: -apple-system-headline
@@ -14,6 +16,11 @@ font-family: -apple-system-short-caption1
 font-family: -apple-system-short-footnote
 font-family: -apple-system-tall-body
 */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 body,
 a,
